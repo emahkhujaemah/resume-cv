@@ -203,9 +203,10 @@ body{
     top: 14px;
     left: -21px;
     width: 3px;
-    height: 160px;
+    height: 93px; /* Mengatur panjang garisnya */
     background: #0bb5f4;
 }
+
 
 .resume .resume_right .resume_hobby ul{
     display: flex;
