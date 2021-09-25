@@ -151,7 +151,9 @@ body{
 }
 
 .resume .resume_right .resume_work ul, 
-.resume .resume_right .resume_education ul{
+.resume .resume_right .resume_education ul, 
+.resume .resume_right .resume_organization ul
+{
     padding-left: 40px;
     overflow: hidden;
 }
@@ -175,7 +177,9 @@ body{
 }
 
 .resume .resume_right .resume_work ul li:before, 
-.resume .resume_right .resume_education ul li:before{
+.resume .resume_right .resume_education ul li:before,
+.resume .resume_right .resume_organization ul li::before
+{
     content: "";
     position: absolute;
     top: 5px;
@@ -188,7 +192,9 @@ body{
 
 /* Garis lurus setelah bulatan kecil di bagian kanan */
 .resume .resume_right .resume_work ul li:after, 
-.resume .resume_right .resume_education ul li:after{
+.resume .resume_right .resume_education ul li:after,
+.resume .resume_right .resume_organization ul li:after
+{
     content: "";
     position: absolute;
     top: 14px;
@@ -229,4 +235,7 @@ body{
     display: none;
 }
 
+span{
+    font-style: italic;
+}
 
