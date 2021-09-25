@@ -22,7 +22,7 @@ body{
 }
 
 .semi_bold{
-    font-weight: 16px;
+    font-weight: bold;
     font-size: 500;
 }
 
@@ -113,6 +113,7 @@ body{
 
 .resume .resume_left .resume_skills ul li .skill_name{
     width: 25%;
+    font-weight: bold;
 }
 
 .resume .resume_left .resume_skills ul li .skill_progress{
@@ -166,6 +167,7 @@ body{
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 15px;
+    color: #42c8f5;
 }
 
 .resume .resume_right ul li .info{
@@ -178,7 +180,8 @@ body{
 
 .resume .resume_right .resume_work ul li:before, 
 .resume .resume_right .resume_education ul li:before,
-.resume .resume_right .resume_organization ul li::before
+.resume .resume_right .resume_organization ul li:before
+
 {
     content: "";
     position: absolute;
@@ -238,4 +241,11 @@ body{
 span{
     font-style: italic;
 }
+
+
+.semi-bol{
+    font-weight: bold;
+}
+
+
 
